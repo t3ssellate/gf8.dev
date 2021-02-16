@@ -1,9 +1,8 @@
-baseURL = "localhost"
+baseURL = "gf8.onrender.com"
 languageCode = "en-us"
 title = "GF(8)"
 theme = "hello-friend-ng"
 paginate = 10
-publishDir = "docs/"
 
 [permalinks]
   posts = "/posts/:year/:month/:title/"
