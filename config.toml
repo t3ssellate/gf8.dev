@@ -1,0 +1,41 @@
+baseURL = "localhost"
+languageCode = "en-us"
+title = "GF(8)"
+theme = "hello-friend-ng"
+paginate = 10
+publishDir = "docs/"
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[params]
+  homeSubtitle = "A blog about cybersecurity, systems programming, and touches of other things"
+  enableSharingButtons = true
+
+  footerLeft = "Powered by <a href=\"http://gohugo.io\">Hugo</a>"
+  footerRight = "hello-friend-ng theme by <a href=\"https://github.com/rhazdon\">rhazdon</a>"
+
+  [params.logo]
+    logoText = "GF(8)"
+    logoHomeLink = "/"
+    logoCursorAnimate = "0s"
+  
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/_t3ssellate"
+  [[params.social]]
+    name = "email"
+    url = "mailto:nobody@nowhere.com"
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/t3ssellate"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "about/"
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "posts/"
